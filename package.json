@@ -1,0 +1,35 @@
+{
+    "scripts": {
+        "type-check": "npx tsc",
+        "format": "prettier --write .",
+        "check-format": "prettier --check .",
+        "wiki:build": "npm run type-check && npx tsx .vitepress/build.ts",
+        "wiki:ingest": "npm run type-check && npx tsx .vitepress/ingest.ts",
+        "docs:dev": "vitepress dev",
+        "docs:build": "npm run wiki:build && vitepress build",
+        "docs:preview": "vitepress preview"
+    },
+    "author": "Albert Ferguson",
+    "type": "module",
+    "devDependencies": {
+        "@mdit/plugin-img-lazyload": "^0.22.2",
+        "@mdit/plugin-tasklist": "^0.22.3",
+        "@nolebase/markdown-it-bi-directional-links": "^2.18.2",
+        "@types/node": "^24.7.2",
+        "markdown-it": "^14.1.0",
+        "mermaid": "^11.12.2",
+        "obsidian": "^1.11.4",
+        "obsidian-dataview": "^0.5.68",
+        "prettier": "3.8.1",
+        "tsx": "^4.21.0",
+        "typescript": "^5.9.3",
+        "vitepress": "^1.6.4",
+        "vitepress-plugin-mermaid": "^2.0.17"
+    },
+    "engines": {
+        "node": ">=22"
+    },
+    "dependencies": {
+        "front-matter": "^4.0.2"
+    }
+}
