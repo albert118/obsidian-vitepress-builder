@@ -16,7 +16,7 @@
         "@mdit/plugin-tasklist": "^0.22.3",
         "@nolebase/markdown-it-bi-directional-links": "^2.18.2",
         "@types/node": "^24.7.2",
-        "markdown-it": "^14.1.0",
+        "markdown-it": "^14.1.1",
         "mermaid": "^11.12.2",
         "obsidian": "^1.11.4",
         "obsidian-dataview": "^0.5.68",
