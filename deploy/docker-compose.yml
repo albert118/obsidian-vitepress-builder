@@ -1,0 +1,10 @@
+services:
+  daedalus-project-docs:
+    image: ghcr.io/albert118/daedalus-project-docs:master
+    restart: unless-stopped
+    ports:
+      - '8185:80'
+
+networks:
+    codexnet:
+        external: true
