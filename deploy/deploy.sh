@@ -5,7 +5,7 @@
 echo "-- Daedalus Project Docs Wiki Updater --"
 
 GHCR_USERNAME='albertferguson118@gmail.com'
-# not secure in the slightest but fuck it
+# not secure in the slightest but fuck it - THIS IS AN OLD TOKEN AND HAS BEEN REVOKED
 CR_PAT=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
 COMPOSE_FILE=/mnt/cache/appdata/daedalus-project-docs/docker-compose.yml
 WEBH_URL="https://discord.com/api/webhooks/1027173037172330516/xkwVVyTabb12qaSzj99dtjcSfydTuM05luZrjIrTLwXY0n2KAtMRZDLwWOnIdWfq4akZ"
