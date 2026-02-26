@@ -1,0 +1,5 @@
+services:
+  daedalus-project-docs:
+    build: .  
+    ports:
+      - '8185:80'
