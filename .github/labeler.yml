@@ -1,0 +1,22 @@
+bug:
+    - head-branch: ['^bug']
+
+content:
+    - changed-files:
+          - any-glob-to-any-file: ['*.md', '!README.md']
+
+documentation:
+    - changed-files:
+          - any-glob-to-any-file: ['README.md']
+
+housekeeping:
+    - changed-files:
+          - any-glob-to-any-file: ['.*ignore', '.eslint*', '.prettier*', 'LICENCE', '.git*']
+
+infrastructure:
+    - changed-files:
+          - any-glob-to-any-file: ['*.yml', 'Docker', '*.config', '.config/**', '.github/**', '*.jsonc']
+
+dependencies:
+    - changed-files:
+          - any-glob-to-any-file: ['package.json', 'package-lock.json', '.node-version']

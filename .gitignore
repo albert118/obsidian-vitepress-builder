@@ -1,0 +1,21 @@
+# build and cache outputs
+*/cache
+*/dist
+*/build
+*/.bin
+
+# node
+*/node_modules
+node_modules
+
+# secrets
+*.env
+*.secret
+
+# Obsidian local content
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# assets (binaries and large files for this particular project that should not be synced)
+pdfannots2json.exe
+Scripts/google-maps-integration/assets/*

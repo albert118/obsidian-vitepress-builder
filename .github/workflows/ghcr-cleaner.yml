@@ -1,0 +1,30 @@
+# Clean up old images (not an in-built feature from GitHub)
+# See: https://github.com/marketplace/actions/ghcr-cleaner
+# This typically aims to keep only the latest nightly/master image + the latest 2 tagged
+# images so that there's a possibility of rollback. However, atm I just deploy master and idgf about rolling back lol
+# so this should result in only one image at any given time
+name: GHCR Cleaner
+
+on:
+    push:
+        branches:
+            - 'releases/**'
+    schedule:
+        - cron: '59 23 * * 0'
+    workflow_dispatch:
+
+jobs:
+    delete-images:
+        runs-on: ubuntu-latest
+        permissions:
+            packages: write
+        steps:
+            - name: Delete packages not within the top 5 (and untagged)
+              uses: quartx-analytics/ghcr-cleaner@v1.0.2
+              with:
+                  owner-type: user
+                  # note that this is a classic token, as package permissions aren't part of fine-grained (yet).
+                  token: ${{ secrets.GHCR_PAT_TOKEN }}
+                  repository-owner: ${{ github.repository_owner }}
+                  delete-untagged: true
+                  keep-at-most: 3
