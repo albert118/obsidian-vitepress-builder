@@ -1,0 +1,23 @@
+# build and cache outputs
+
+*/cache
+*/dist
+*/build
+*/.bin
+
+# node
+
+*/node_modules
+node_modules
+
+# misc. files that shouldn't be bundled
+.dockerignore
+Dockerfile
+Dockerfile.*
+
+# settings and editors
+.vs
+.vscode
+.idea
+.DS_Store
+*.sln.DotSettings.*

@@ -1,0 +1,102 @@
+/* .vitepress/theme/custom.css */
+:root {
+  /* ---- START VARIABLES ---- */
+
+  --color-neutral-900: #0b0909;
+  --color-neutral-800: #161212;
+  --color-neutral-700: #221c1c;
+  --color-neutral-600: #5a494b;
+  --color-neutral-500: #705c5e;
+  --color-neutral-400: #876e71;
+  --color-neutral-300: #9a8487;
+  --color-neutral-200: #bdafb1;
+  --color-neutral-100: #e3dddd;
+  --color-neutral-50: #f6f4f4;
+
+  --color-red-900: #120204;
+  --color-red-800: #37060c;
+  --color-red-700: #8f0011;
+  --color-red-600: #b80015;
+  --color-red-500: #66000c;
+  --color-red-400: #b01729;
+  --color-red-300: #d91c32;
+  --color-red-200: #ff334b;
+  --color-red-100: #ff5468;
+  --color-red-50: #ff6d6d;
+
+  --color-green-500: #3afc64;
+  --color-green-400: #3edb60;
+  --color-green-300: #45cf63;
+  --color-green-100: #82da95;
+
+  --color-blue-500: #0cc0df;
+  --color-blue-400: #1fbad5;
+  --color-blue-300: #39c0d8;
+  --color-blue-100: #304449;
+
+  --color-purple-500: #7a00cc;
+  --color-purple-400: #751eae;
+  --color-purple-300: #8943b8;
+  --color-purple-100: #b18bcb;
+
+  --color-yellow-500: #fcbf3a;
+  --color-yellow-400: #e19120;
+  --color-yellow-100: #e5d87b;
+
+  --color-transparent: transparent;
+  --color-white: var(--color-neutral-50);
+  --color-black: #0b0909;
+
+  --color-primary: var(--color-red-200);
+  --color-secondary: var(--color-red-400);
+  --color-accent: var(--color-neutral-500);
+
+  /* ---- END VARIABLES ---- */
+
+  /* ---- START BRANDING ---- */
+
+  --vp-c-brand-1: var(--color-primary);
+  --vp-c-brand-2: var(--color-secondary);
+  --vp-c-brand-3: var(--color-accent);
+  --vp-c-brand-soft: var(--color-neutral-600);
+  --vp-c-default-soft: var(--color-neutral-700);
+
+  --vp-custom-block-info-bg: var(--color-blue-100);
+
+  /* --vp-c-tip-1: var(--color-neutral-600);
+  --vp-c-tip-2: var(--color-neutral-600);
+  --vp-c-tip-3: var(--color-neutral-600); */
+  --vp-c-tip-soft: var(--color-neutral-500);
+
+  /* --vp-c-note-1: var(--color-purple-500);
+  --vp-c-note-2: var(--color-purple-400);
+  --vp-c-note-3: var(--color-purple-300); */
+  --vp-c-note-soft: var(--color-purple-100);
+
+  /* --vp-c-success-1: var(--color-green-500);
+  --vp-c-success-2: var(--color-green-400);
+  --vp-c-success-3: var(--color-green-300); */
+  --vp-c-success-soft: var(--color-green-100);
+
+  /* --vp-c-important-1: var(--vp-c-purple-1);
+  --vp-c-important-2: var(--vp-c-purple-2);
+  --vp-c-important-3: var(--vp-c-purple-3); */
+  /* --vp-c-important-soft: var(--vp-c-purple-soft); */
+
+  /* --vp-c-warning-1: var(--color-yellow-500);
+  --vp-c-warning-2: var(--color-yellow-400);
+  --vp-c-warning-3: var(--color-yellow-100); */
+  --vp-c-warning-soft: var(--color-yellow-400);
+
+  /* --vp-c-danger-1: var(--vp-c-red-1);
+  --vp-c-danger-2: var(--vp-c-red-2);
+  --vp-c-danger-3: var(--vp-c-red-3); */
+  --vp-c-danger-soft: var(--color-red-300);
+
+  /* --vp-c-caution-1: var(--vp-c-red-1);
+  --vp-c-caution-2: var(--vp-c-red-2);
+  --vp-c-caution-3: var(--vp-c-red-3);
+  --vp-c-caution-soft: var(--vp-c-red-soft); */
+
+  /* ---- END BRANDING ---- */
+}
