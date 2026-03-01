@@ -15,7 +15,7 @@
         "@mdit/plugin-img-lazyload": "^0.23.0",
         "@mdit/plugin-tasklist": "^0.23.0",
         "@nolebase/markdown-it-bi-directional-links": "^2.18.2",
-        "@types/node": "^24.7.2",
+        "@types/node": "^25.3.3",
         "markdown-it": "^14.1.1",
         "mermaid": "^11.12.3",
         "obsidian": "^1.12.3",
