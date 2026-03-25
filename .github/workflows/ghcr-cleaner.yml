@@ -9,8 +9,6 @@ on:
     push:
         branches:
             - 'releases/**'
-    schedule:
-        - cron: '59 23 * * 0'
     workflow_dispatch:
 
 jobs:
