@@ -17,7 +17,7 @@
         "@nolebase/markdown-it-bi-directional-links": "^2.21.1",
         "@types/node": "^25.3.5",
         "markdown-it": "^14.2.0",
-        "mermaid": "^11.13.0",
+        "mermaid": "^12.3.0",
         "obsidian": "^1.14.4",
         "obsidian-dataview": "^0.5.68",
         "prettier": "3.9.10",
