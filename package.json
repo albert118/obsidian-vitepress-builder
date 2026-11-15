@@ -20,7 +20,7 @@
         "mermaid": "^12.3.0",
         "obsidian": "^1.14.4",
         "obsidian-dataview": "^0.5.68",
-        "prettier": "3.9.10",
+        "prettier": "3.10.1",
         "tsx": "^4.23.15",
         "typescript": "^5.9.3",
         "vitepress": "^1.6.4",
